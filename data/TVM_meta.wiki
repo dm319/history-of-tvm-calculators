@@ -1,0 +1,52 @@
+| calculator                   | manufacturer | year    | ref      | ip     | digits |
+| ---------------------------- | ------------ | ------- | -------- | ------ | ----   |
+| NSTK TVM V8                  | enthusiast   | 2024    | 1        | 34     | 34     |
+| NSTK TVM V6                  | enthusiast   | 2024    | 1        | 34     | 34     |
+| NSTK TVM V5                  | enthusiast   | 2023    | 1        | 34     | 34     |
+| C47 eadc4507f                | enthusiast   | 2024    | 3        | 34     | 34     |
+| C47 1531f1cb2                | enthusiast   | 2024    | 3        | 34     | 34     |
+| Plus42 1.1.9                 | enthusiast   | 2022    | 2        | 34     | 34     |
+| TI-83 Plus                   | TI           | 1999    |          | 14     | 14     |
+| RPN83P v0.9.0                | enthusiast   | 2023    | 4        | 14     | 14     |
+| RPN83P v0.12.0 RC2           | enthusiast   | 2023    | 4        | 14     | 14     |
+| RPN83P v0.12.0               | enthusiast   | 2024    | 4        | 14     | 14     |
+| RPN83P v1.0.0                | enthusiast   | 2024    | 4        | 14     | 14     |
+| HP-17B                       | HP           | 1988    | 19       | 12     | 12     |
+| HP-17BII                     | HP           | 1990    | 6        | 12     | 12     |
+| HP-17BII+ mk1                | HP           | 2003    | 9        | 12     | 12     |
+| HP-17BII+ mk2                | HP           | 2007    | 8, 24    | 15     | 12     |
+| HP-19BII                     | HP           | 1990    | 9        | 12     | 12     |
+| HP-27S                       | HP           | 1988    | 25       |        | 12     |
+| HP-20b                       | HP           | 2008    | 8        | 15     | 12     |
+| HP-30b                       | HP           | 2010    | 8, 9     | 15     | 12     |
+| HP-50G                       | HP           | 2006    | 9        | 15     | 12     |
+| HP-12c Platinum              | HP           | 2003    |          | 15     | 12     |
+| TI BA II Plus Professional   | TI           | 2004    | 16       | 13     | 10     |
+| HP-10bII+                    | HP           | 2011    | 9        | 15     | 12     |
+| BWK Business                 | BWK          | 2007    | 9, 26    |        | 17     |
+| Victor V12                   | Victor       | 2007    | 9        |        | 10     |
+| HP-12c Rogue One             | HP           | 2022    | 11       |        | 16     |
+| HP-92                        | HP           | 1977    | 13, 14   |        | 10     |
+| HP-12c                       | HP           | 1981    | 8        | 12     | 10     |
+| HP-37E                       | HP           | 1978    | 14       |        | 10     |
+| HP-38E                       | HP           | 1978    | 14       |        | 10     |
+| Sharp PC-1403H HPF 188177    | enthusiast   | 2024    | 17       |        | 10     |
+| Sharp EL-735                 | Sharp        | 1989    | 16       |        | 10     |
+| Sharp PC-1421                | Sharp        | 1983    | 18       |        | 10     |
+| HP-27                        | HP           | 1976    | 14       |        | 10     |
+| HP-22                        | HP           | 1975    | 14       |        | 10     |
+| HP-70                        | HP           | 1974    | 14       |        | 10     |
+| HP-80                        | HP           | 1973    | 14, 15   |        | 10     |
+| HP-41CX Financial Decisions  | HP           | 1979    | 20       |        | 10     |
+| WP43 0.25.2                  | enthusiast   | 2023    | 21       |        | 34     |
+| HP Prime 2.1.14730           | HP           | 2013    | 22       |        | 12     |
+| Casio FC-200                 | Casio        | 1992    | 12       |        | 10     |
+| Casio FC-100V                | Casio        | 2004    | 23       |        | 15     |
+| Casio FC-200V                | Casio        | 2004    | 23       |        | 15     |
+| LibreOffice Calc 25.2.5.2    | TDF          | 2024    |          |        | 15     |
+| Microsoft Excel 2408         | MS           | 2024    |          |        | 15     |
+| Busicom FN200                | Busicom      | 2016    | 27       |        | 12     |
+| Busicom FN400                | Busicom      | 2016    | 27       |        | 13     |
+| HP-67 Standard Pac           | HP           | 1976    |          |        | 10     |
+| HP-10B                       | HP           | 1989    | 28       |        | 12     |
+
