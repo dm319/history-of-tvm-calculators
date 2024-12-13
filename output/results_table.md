@@ -1,4 +1,3 @@
-beginning
 
 
 |calculator                  |1    |1b   |2    |3    |4    |5A   |5B   |6A   |6B   |7    |8    |9    |10   |11   |12   | median|   mean|
@@ -53,4 +52,3 @@ beginning
 |HP-70                       |9.3  |6.6  |8.8  |1.2  |9    |ERR  |ERR  |ERR  |ERR  |ERR  |ERR  |1.7  |ERR  |-1   |ERR  |  3.659|  2.523|
 |HP-67 Standard Pac          |9.6  |7.3  |8.8  |1.2  |ERR  |NA   |-1   |-0.3 |NA   |9.7  |7.6  |ERR  |ERR  |0.8  |-4.2 |  1.708|  3.180|
 |HP-80                       |9.6  |5.1  |9.4  |1.2  |ERR  |ERR  |ERR  |ERR  |ERR  |ERR  |ERR  |1.3  |ERR  |-1   |ERR  |  1.708|  1.965|
-end

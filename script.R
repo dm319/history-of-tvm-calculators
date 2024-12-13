@@ -126,6 +126,7 @@ res_com_imputed %>%
             mean = mean(accuracy, na.rm = TRUE))
 
 # output table of results
+sink("./output/results_table.md")
 result_com_pre %>%
   mutate(accuracy = as.character(round(accuracy,1))) %>%
   mutate(accuracy = ifelse(fail, "ERR", accuracy)) %>%
@@ -134,6 +135,7 @@ result_com_pre %>%
   left_join(sum_acc) %>%
   arrange(desc(median), desc(mean)) %>%
   kable
+sink()
 
 # ranking for levels
 ranking <-
@@ -232,7 +234,7 @@ res_com_dr_meta %>%
   scale_colour_gradient(low = "#6C0000", high = "#2A006C")+
   geom_point(size = 4, alpha = 0.6)
 
-ggsave("tsne.png", width = 7.5, height = 7, dpi = 120)
+ggsave("./figures/tsne.png", width = 7.5, height = 7, dpi = 120)
 
 res_com_dr_meta %>%
   ggplot(aes(x = tsne.1, y = tsne.2, colour = louvain,
@@ -244,7 +246,7 @@ res_com_dr_meta %>%
   labs(x = "TSNE1", y = "TSNE2")+
   geom_point(size = 4, alpha = 0.6)
 
-ggsave("tsne_louvain.png", width = 8.5, height = 8, dpi = 120)
+ggsave("./figures/tsne_louvain.png", width = 8.5, height = 8, dpi = 120)
 
 res_com_dr_meta %>%
   ggplot(aes(x = pca.PC1, y = pca.PC2, colour = year,
@@ -257,7 +259,7 @@ res_com_dr_meta %>%
   scale_colour_gradient(low = "#6C0000", high = "#2A006C")+
   geom_point(size = 4, alpha = 0.6)
 
-ggsave("pca.png", width = 7.5, height = 7, dpi = 120)
+ggsave("./figures/pca.png", width = 7.5, height = 7, dpi = 120)
 
 res_com_dr_meta %>%
   ggplot(aes(x = pca.PC1, y = pca.PC2, colour = louvain,
@@ -269,7 +271,7 @@ res_com_dr_meta %>%
   labs(x = "PC1", y = "PC2")+
   geom_point(size = 4, alpha = 0.6)
 
-ggsave("tsne_pca.png", width = 7.5, height = 7, dpi = 120)
+ggsave("./figures/tsne_pca.png", width = 7.5, height = 7, dpi = 120)
 
 res_com %>%
   left_join(meta_data) %>%
@@ -296,7 +298,7 @@ res_com %>%
         plot.margin = unit(c(0, 0, 0, 0.4), "inches"))+
   labs(x = "calculator", y = "TVM digit efficiency")
 
-ggsave("digit_efficiency.png", width = 12, height = 7.5, dpi = 120)
+ggsave("./figures/digit_efficiency.png", width = 12, height = 7.5, dpi = 120)
 
 
 rownames(res_com_dr_meta) <- res_com_dr_meta$calculator
@@ -316,24 +318,7 @@ res_com_dr_meta %>%
   select(matches("^\\d")) %>%
   as.matrix(.) 
 
-m[,col_order] %>%
-  heatmap.2(.,
-  breaks = col_breaks,
-  col = my_palette,
-  trace = "none",
-  symm = F,
-  symkey = F,
-  symbreaks = FALSE,
-  margins = c(5,14),
-  dendrogram = "both",
-  cexCol = 1.5,
-  cexRow = 1.0,
-  keysize = 1,
-  key.title = "Key",
-  key.xlab = "Accuracy"
-  )
-
-png(filename = "heatmap.png", width = 9, height = 9, units = "in", res = 120)
+png(filename = "./figures/heatmap.png", width = 9, height = 9, units = "in", res = 120)
 m[,col_order] %>%
   heatmap.2(.,
   breaks = col_breaks,
